@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Appname:</strong>
+  <%= @appointment.appname %>
+</p>
+
+<p>
+  <strong>Appdate:</strong>
+  <%= @appointment.appdate %>
+</p>
+
+<p>
+  <strong>Apptime:</strong>
+  <%= @appointment.apptime %>
+</p>
+
+<p>
+  <strong>Appmonth:</strong>
+  <%= @appointment.appmonth %>
+</p>
+
+<p>
+  <strong>Appyear:</strong>
+  <%= @appointment.appyear %>
+</p>
+
+<%= link_to 'Edit', edit_appointment_path(@appointment) %> |
+<%= link_to 'Back', appointments_path %>

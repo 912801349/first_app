@@ -1,7 +1,5 @@
 FirstApp::Application.routes.draw do
  
-  resources :appointments
-
   get "pages/calendar"
   get "pages/project_2"
   get "projectspage/home", to: 'projectspage#home'
